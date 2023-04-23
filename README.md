@@ -12,7 +12,15 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 
 ## Introduction
+We took a glance on our current world population and found out that as of today, world population stands at an all-time high of over 8 billion people. This increase in world population is happening as fertility rate is higher than mortality rate. Delving deeper into research data, we found out that the most populated country is China with over 1.45 billion people and the least populated country is Niue with only 1610 people. 
 
+It is important to note the difference between most populated and most densely populated. Some of the most densely populated countries are China and India. According to our findings, overpopulation leads to negative impacts such as ecological degradation and higher impacts of disasters and pandemics.
+
+Next, our project also looked up on under-populated countries. Greenland only has about 0.14 people/km square and Australia has 3.44 people/km square. This also leads to certain negative effects, such as lower standard of living and poor country defence.
+
+Since both rapid and slow population growth has their own detrimental impacts on societies, it gave us the motivation behind our current problem, "What strategies can countries implement to control their population growth?"
+
+In our project, we'll be looking at a few datasets, namely CapitalGDP, PovertyRate, UnemploymentRate, FemalePercentage, GiniIndex and LiteracyRate against FertilityRate. Our aim is to learn from the data and come up with a response for our problem.
 
 ### Problem Definition
 
@@ -21,6 +29,8 @@ What strategies can countries adopt to control population growth?
 
 ### Contributors
 @Shinn413 - Data Extraction, Data Preparation， Multi-Layer Perceptron
+
+@barryyng - Problem definition, Linear Regression
 
 @Russell-0508 - Data Preparation, Exploratory Data Analysis
 
