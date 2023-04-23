@@ -1,5 +1,5 @@
 # Fertility Rate Analysis with Economic Data
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence). In this project, we predict fertility rates based on various economic indicators using machine learning techniques.
+This is an introduction to our mini-project for Data Science & Artificial Intelligence. Our topic is economic data against fertility rate.
 
 ## Table of Contents
 - [Introduction](#introduction)
