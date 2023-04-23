@@ -119,11 +119,11 @@ To reproduce the analysis and results, follow these steps:
                                    `pip install seaborn`
                                    `pip install torch`)
                                    
-3. Open the Jupyter notebook: `SC1015.ipynb`
+3. Open the Jupyter notebook: `Fertility Rate Analysis with Economic Data.ipynb`
 
 4. Run the cells in the Jupyter notebook to perform the analysis and generate the results.
 
-5. View the presentation slides in the `SC1015 A128 Team 5.pdf` file for an overview of the project and its findings.
+5. View the presentation slides in the `economic data against fertility rate.pdf` file for an overview of the project and its findings.
 
 
 # References
