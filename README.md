@@ -77,11 +77,11 @@ We have utilized two machine learning models to predict the fertility rate based
 
 Linear Regression:
 
-a. Data Preparation: Divide the dataset into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate its performance.
+a. Data Preparation: Divide the dataset into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate its performance. Both univariate and multivariate linear regression will be considered, allowing for the analysis of single and multiple economic indicators' relationships with fertility rates.
 
-b. Model Training: Train the Linear Regression model using the training set. Fit the model to the data, learning the relationship between the economic indicators and fertility rates.
+b. Model Training: Train the Linear Regression models, both univariate and multivariate, using the training set. Fit the model to the data, learning the relationship between the economic indicators and fertility rates for each case (univariate and multivariate).
 
-c. Model Evaluation: Evaluate the performance of the Linear Regression model on the testing set using Mean Squared Error (MSE) and R-squared.
+c. Model Evaluation: Evaluate the performance of the Linear Regression models, both univariate and multivariate, on the testing set using Mean Squared Error (MSE) and R-squared. This will provide insights into how well each model (univariate and multivariate) captures the relationship between the economic indicators and fertility rates.
 
 Multilayer Perceptron (MLP):
 
@@ -94,9 +94,9 @@ c. Model Evaluation: Evaluate the performance of the MLP model on the testing se
 
 ## Conclusion
 
-1. Our project has demonstrated the effectiveness of using machine learning techniques to analyze the relationship between economic indicators and fertility rates
+1. Our project has demonstrated the effectiveness of using machine learning techniques to analyze the relationship between economic indicators and fertility rates. For example, the project showed that higher literacy rates are associated with lower fertility rates so it is essential to promote education for population control.
 
-2. Although the project does not directly address strategies for boosting population growth, it do provide valuable insights into the factors affecting fertility rates.
+2. Although the project does not directly address strategies for boosting population growth, it do provide valuable insights into the factors affecting fertility rates. For instance, we also found a strong positive relationship between poverty rate and fertility rate. However, it is necessary to acknowledge that higher fertility rates in impoverished areas may not be sustainable and can contribute to a cycle of poverty. In this case, strategies for boosting population growth should still focus on reducing poverty and improving the overall well-being of the population.
 
 3. By understanding the complex relationships between these economic indicators and fertility rates with the help of data science, policymakers can tailor strategies to their specific country context.
 
