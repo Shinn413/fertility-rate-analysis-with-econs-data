@@ -47,7 +47,7 @@ We have utilized two machine learning models to predict the fertility rate based
 ## Usage
 To reproduce the analysis and results, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/username/Fertility-rate-analysis-with-econs-data.git`
+1. Clone this repository: `https://github.com/Shinn413/fertility-rate-analysis-with-econs-data`
 2. Install the required packages: (List any required packages and their installation commands, e.g., `pip install pandas numpy scikit-learn`)
 3. Open the Jupyter notebook: `jupyter notebook Fertility_rate_analysis_with_econs_data.ipynb`
 4. Run the cells in the Jupyter notebook to perform the analysis and generate the results.
