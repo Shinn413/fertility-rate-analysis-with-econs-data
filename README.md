@@ -5,11 +5,13 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - [Introduction](#introduction)
 - [Data](#data)
 - [Models Used](#model-used)
-- [Results](#results)
+- [Methodology](#methodology)
+- [Conclusion](#conclusion)
 - [Usage](#usage)
 
 ## Introduction
-(Provide a brief introduction to the problem statement and the main objectives of the project.)
+
+### Contributors
 
 ## Data
 This project uses 7 data files, which include:
@@ -30,6 +32,8 @@ We have utilized two machine learning models to predict the fertility rate based
 1. Linear Regression Model
 2. Multi-Layer Perceptron (MLP)
 
+
+## Methodology
 ### Data Preprocessing
 1. Read data from multiple CSV files, each containing information about different economic indicators (fertility rate, capital GDP, poverty rate, Gini index, literacy    rate, unemployment rate, and female percentage of the total population).
 2. Drop unnecessary columns from each DataFrame such as 'Country Code', 'Indicator Name', and 'Indicator Code'.
@@ -39,17 +43,17 @@ We have utilized two machine learning models to predict the fertility rate based
 6. Perform KNN imputation to fill any missing values in the merged_df DataFrame. This is done by first instantiating a KNNImputer with a specific number of neighbors      (e.g., 3). Then, the KNNImputer is fitted and used to transform the data.
 
 ### Model Development
-(Describe the process of developing the MLP model, including hyperparameter tuning using Grid Search.)
 
-## Results
-(Summarize the main findings of the project, including any insights or recommendations based on the analysis.)
+
+## Conclusion
+
 
 ## Usage
 To reproduce the analysis and results, follow these steps:
 
 1. Clone this repository: `https://github.com/Shinn413/fertility-rate-analysis-with-econs-data`
 2. Install the required packages: (List any required packages and their installation commands, e.g., `pip install pandas numpy scikit-learn`)
-3. Open the Jupyter notebook: `jupyter notebook Fertility_rate_analysis_with_econs_data.ipynb`
+3. Open the Jupyter notebook: `SC1015.ipynb`
 4. Run the cells in the Jupyter notebook to perform the analysis and generate the results.
-5. View the presentation slides in the `Fertility_rate_analysis_with_econs_data.ppt` file for an overview of the project and its findings.
+5. View the presentation slides in the `SC1015.ppt` file for an overview of the project and its findings.
 
