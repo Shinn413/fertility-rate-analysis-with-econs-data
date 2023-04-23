@@ -31,6 +31,7 @@ All data are extracted from the world bank https://data.worldbank.org/
 We have utilized two machine learning models to predict the fertility rate based on the economic indicators:
 
 1. Linear Regression Model
+
 2. Multi-Layer Perceptron (MLP)
 
 
@@ -41,10 +42,15 @@ We have utilized two machine learning models to predict the fertility rate based
 1. Read data from multiple CSV files, each containing information about different economic indicators (fertility rate, capital GDP, poverty rate, Gini index, literacy    rate, unemployment rate, and female percentage of the total population).
 
 2. Drop unnecessary columns from each DataFrame such as 'Country Code', 'Indicator Name', and 'Indicator Code'.
+
 3. Convert each DataFrame from wide format to long format using the melt() function. This involves specifying 'Country Name' as the ID variable, 'Year' as the variable    name, and the corresponding indicator name (e.g., 'FertilityRate') as the value name.
+
 4. Merge all the DataFrames into one single DataFrame called merged_df based on the 'Country Name' and 'Year' columns. This results in a single DataFrame containing      all the economic indicators for each country and year.
+
 5. Filter the merged_df DataFrame to include only data from 1990 onwards to improve the representativeness of the data.
+
 6. Perform KNN imputation to fill any missing values in the merged_df DataFrame. This is done by first instantiating a KNNImputer with a specific number of neighbors      (e.g., 3). Then, the KNNImputer is fitted and used to transform the data.
+
 
 ### Model Development
 
@@ -68,7 +74,9 @@ c. Model Evaluation: Evaluate the performance of the MLP model on the testing se
 ## Conclusion
 
 1. Our project has demonstrated the effectiveness of using machine learning techniques to analyze the relationship between economic indicators and fertility rates
+
 2. Although the project does not directly address strategies for boosting population growth, it do provide valuable insights into the factors affecting fertility rates.
+
 3. By understanding the complex relationships between these economic indicators and fertility rates with the help of data science, policymakers can tailor strategies to their specific country context.
 
 ## New Insights
@@ -82,13 +90,38 @@ c. Model Evaluation: Evaluate the performance of the MLP model on the testing se
 To reproduce the analysis and results, follow these steps:
 
 1. Clone this repository: `https://github.com/Shinn413/fertility-rate-analysis-with-econs-data`
+
 2. Install the required packages: (`pip install pandas`
                                    `pip install numpy`
                                    `pip install scikit-learn`
                                    `pip install matplotlib`
                                    `pip install seaborn`
                                    `pip install torch`)
+                                   
 3. Open the Jupyter notebook: `SC1015.ipynb`
+
 4. Run the cells in the Jupyter notebook to perform the analysis and generate the results.
+
 5. View the presentation slides in the `SC1015 A128 Team 5.pdf` file for an overview of the project and its findings.
 
+
+# References
+1.https://www.worldometers.info/world-population/
+
+2.https://www.nationsonline.org/oneworld/population-by-country.htm
+
+3.https://www.globaldata.com/data-insights/macroeconomic/least-populated-countries-in-the-world/
+
+4.https://ourworldindata.org/most-densely-populated-countries
+
+5.https://www.populationmedia.org/blog/overpopulation-cause-and-effect
+
+6.https://ourworldindata.org/most-densely-populated-countries
+
+7.https://selfhelparchive.com/positive-and-negative-effects-of-under-population/
+
+8.https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20algorithm%2C%20also%20known%20as%20KNN%20or,of%20an%20individual%20data%20point.
+
+9.https://www.d2l.ai/chapter_multilayer-perceptrons/index.html
+
+10.https://scikit-learn.org/stable/modules/neural_networks_supervised.html
