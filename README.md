@@ -10,9 +10,20 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - [New Insights](#new-insights)
 - [Usage](#usage)
 
+
 ## Introduction
 
+
+### Problem Definition
+
+What strategies can countries adopt to control population growth?
+
+
 ### Contributors
+@Shinn413 - Data Extraction, Data Preparation， Multi-Layer Perceptron
+
+@Russell-0508 - Data Preparation, Exploratory Data Analysis
+
 
 ## Data
 This project uses 7 data files, which include:
